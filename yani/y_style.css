@@ -1,0 +1,186 @@
+body {
+    background-image: url(y_kepek/background.png);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #111;
+    border: 1px solid #333;
+}
+
+.profile-header {
+    background-color: #222;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 5px #6cf;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 15px;
+    border: 3px solid #6cf;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-info {
+    overflow: hidden;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.profile-info strong {
+    color: #6cf;
+}
+
+.profile-nav {
+    background-color: #333;
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}
+
+.profile-nav a {
+    color: #6cf;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.profile-nav a:hover {
+    text-decoration: underline;
+}
+
+.profile-content {
+    padding: 15px;
+    display: flex;
+}
+
+.left-column {
+    width: 200px;
+    margin-right: 15px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.module {
+    background-color: #222;
+    border: 1px solid #444;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.module-title {
+    color: #6cf;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 3px;
+}
+
+.friends-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.friend {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+    border: 1px solid #444;
+}
+
+.friend img {
+    width: 100%;
+    height: 100%;
+}
+
+.comment {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #444;
+    padding-bottom: 10px;
+}
+
+.comment-user {
+    font-weight: bold;
+    color: #6cf;
+}
+
+.comment-date {
+    font-size: 11px;
+    color: #999;
+}
+
+.comment-body {
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.blurb {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #444;
+}
+
+.song-list li:last-child {
+    border-bottom: none;
+}
+
+.song-title {
+    color: #6cf;
+    font-weight: bold;
+}
+
+.song-duration {
+    color: #999;
+    font-size: 11px;
+}
+
+
+.profile-footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    color: #999;
+    border-top: 1px solid #444;
+}
+
+.marquee {
+    color: #6cf;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status {
+    color: #6cf;
+    font-style: italic;
+    margin-bottom: 10px;
+}
