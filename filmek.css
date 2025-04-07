@@ -145,6 +145,7 @@
         }
         
         .cast-photo {
+            height: 16vh;
             width: 100%;
             border-radius: 4px;
             margin-bottom: 8px;
