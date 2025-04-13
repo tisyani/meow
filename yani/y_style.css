@@ -80,13 +80,6 @@ body {
     flex: 1;
 }
 
-.module {
-    background-color: #222;
-    border: 1px solid #444;
-    margin-bottom: 15px;
-    padding: 10px;
-}
-
 .module-title {
     color: #6cf;
     font-weight: bold;
