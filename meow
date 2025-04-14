@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rawr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <ul>
+              <li><a href="filmek.html">Dani</a></li>
+              <li><a href="bogy/b_index.html">Boggy</a></li>
+              <li><a href="yani/y_index.html">Yani</a></li>
+            </ul>
+        </tr>
+    </table>
+</body>
+</html>

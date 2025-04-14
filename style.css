@@ -1,0 +1,99 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    color: #00FF00;
+    overflow-x: hidden;
+}
+
+#header {
+    background-color: #000066;
+    height: 80px;
+    border-bottom: 5px solid #FF00FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 300px;
+    height: 60px;
+    background-color: #FF9900;
+    border: 3px dashed #FFFFFF;
+    animation: logoGlow 2s infinite alternate;
+}
+
+#main {
+    display: flex;
+    height: calc(100vh - 180px);
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+    border: 4px solid #00FFFF;
+    background-color: #330033;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(90deg, #FF0000, #00FF00, #0000FF);
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s ease;
+}
+
+#footer {
+    background-color: #000066;
+    height: 80px;
+    border-top: 5px solid #FF00FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter {
+    width: 150px;
+    height: 30px;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    background-color: #00FF00;
+    animation: pixelBlink 1s infinite;
+}
+
+@keyframes logoGlow {
+    from { box-shadow: 0 0 5px #FF9900; }
+    to { box-shadow: 0 0 20px #FF9900, 0 0 30px #FF9900; }
+}
+
+@keyframes pixelBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+}
+
