@@ -1,0 +1,99 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #d32f2f;
+    text-align: center;
+  }
+  
+  .poster {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+  }
+  
+
+  .film-info {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .film-info th,
+  .film-info td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .film-info th {
+    background-color: #d32f2f;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .film-info tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+  }
+  
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
